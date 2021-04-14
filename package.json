@@ -7,7 +7,7 @@
     "test": "mocha -b false",
     "start": "tsc-watch --onSuccess \"node dist/fichero.js\"",
     "doc": "typedoc",
-    "coverage": "nyc npm test && nyc report --reporter=lcov && rm -rf .nyc_output"
+    "coverage": "nyc npm test && nyc report --reporter=lcov"
   },
   "keywords": [],
   "author": "",
